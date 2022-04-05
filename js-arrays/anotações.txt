@@ -54,3 +54,9 @@ sort()
 
 splice()
     Consegue remover, um ou mais elementos consecutivos caso o segundo parâmetro tenha um valor maior que 0, e incluir um ou mais elementos a partir de um índice escolhido.
+
+includes(valor)
+    Procura na lista pelo parâmetro indicado acima, se a lista inclui o parâmetro ele retorna True, caso não tdFileSelect 
+
+indexOf(valor)
+    Procura pelo parâmetro indicado na lista, se houver este valor inficado, ele retornára um Integer com a posição do parâmetro na lista
