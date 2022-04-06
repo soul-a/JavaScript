@@ -61,6 +61,13 @@ includes(valor)
 indexOf(valor)
     Procura pelo parâmetro indicado na lista, se houver este valor inficado, ele retornára um Integer com a posição do parâmetro na lista
 
+map()
+    O método map(), retorna uma nova array remapeada com base em alguma callback fucntion, com isso você possui um retorno atualizado da lista a qual vc está aplicando o map
+
+filter()
+    Filtra todos os dados do array se baseando em uma condição, se a condição for verdadeira ele inclui em um outro array que será retornado ao final da execução do método
+
+
 Callbacks
     Funções callback, são funções que são passadas de parâmetros para outras funções, para completar algum tipo de rotina ou ação dentro do seu código, o exemplo mais simples usado é o foreach:
         const nomes = ["Ana", "Ju", "Leo", "Paula"]
@@ -69,3 +76,9 @@ Callbacks
             console.log(nome)
         }
     A função 'imprimirNomes(nomes)' é uma função que passada de parâmetro para outra função chamada 'forEach', ou seja o 'forEach' usa a função de parâmetro para executar alguma rotina ou ação, que neste caso é para iterar e imprimir os valores de cada indice da lista
+
+No JavaScript quando não usamos algum parâmetro mas ele precisa ser passado
+usamos o controlador '_', como no exemplo abaixo
+const reprovados = nomes.filter( (_, indice) => {
+    return  notas[indice] < 5
+})
