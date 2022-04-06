@@ -60,3 +60,12 @@ includes(valor)
 
 indexOf(valor)
     Procura pelo parâmetro indicado na lista, se houver este valor inficado, ele retornára um Integer com a posição do parâmetro na lista
+
+Callbacks
+    Funções callback, são funções que são passadas de parâmetros para outras funções, para completar algum tipo de rotina ou ação dentro do seu código, o exemplo mais simples usado é o foreach:
+        const nomes = ["Ana", "Ju", "Leo", "Paula"]
+        nomes.forEach(imprimirNomes)
+        function imprimirNomes(nome) {
+            console.log(nome)
+        }
+    A função 'imprimirNomes(nomes)' é uma função que passada de parâmetro para outra função chamada 'forEach', ou seja o 'forEach' usa a função de parâmetro para executar alguma rotina ou ação, que neste caso é para iterar e imprimir os valores de cada indice da lista
