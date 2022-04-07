@@ -1,0 +1,1 @@
+Objetos funcionam quando precisamos fazer uma abstração por exemplo de algo do mundo real como por exemplo um 'cliente'
