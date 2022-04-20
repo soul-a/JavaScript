@@ -7,5 +7,7 @@ const cliente = {
     email: "teste@email.com"
 }
 
-console.log(listaCpfs)
-console.log(cliente)
+console.log(cliente.nome)
+console.log(cliente.idade)
+console.log(cliente.cpf)
+console.log(cliente.email)
