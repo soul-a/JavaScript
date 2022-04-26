@@ -49,3 +49,27 @@ Método forIn usado para percorrer objetos
         objeto.info -> Pega o valor da propriedade
 
     }
+
+Devolver todas as propriedades de um objeto
+    const cliente = {
+        nome: "Ryan",
+        idade: 25,
+        tel: "5517981253428"
+    }
+    console.log(Object.keys(cliente)) ->  Irá devolver um array com todas os nomes chaves das propriedades do objeto
+
+Devolver todos os valores das propriedades de um objeto
+    const cliente = {
+        nome: "Ryan",
+        idade: 25,
+        tel: "5517981253428"
+    }
+    console.log(Object.values(cliente)) ->  Irá devolver um array com todos os valores das propriedades
+
+Devolve em par a propriedade seguida de seu valor
+    const cliente = {
+        nome: "Ryan",
+        idade: 25,
+        tel: "5517981253428"
+    }
+    console.log(Object.entries(cliente)) ->  Irá devolver um array em pares entre a propriedade e seu respectivo valor
