@@ -1,4 +1,17 @@
+*********************************************************************************
+********************************RESUMO DA LINGUAGEM******************************
+*********************************************************************************
+
 Objetos funcionam quando precisamos fazer uma abstração por exemplo de algo do mundo real como por exemplo um 'cliente'
+Objetos são literais quando suas caracteristícas e métodos são cirados entre chaves { }, denominado de notação literal, e uma das suas diferenças é que ele aponta para um mesmo local na memória podendo serem feitas refêrencias para ele através de outros objetos que o apontam. Para contornar esta situação é necessário criar um objeto através do método Object.Create(nomeObj), este método cria uma 'cópia' do objeto fornecido, sendo assim um novo local na memória onde você pode trabalhar de forma diferente
+
+
+
+
+
+*********************************************************************************
+*******************************COMANDO DA LINGUAGEM******************************
+*********************************************************************************
 
 Acessando informações contidas dentro de um objeto
     const cliente = {
@@ -16,3 +29,15 @@ Acessando informações de um objeto atraés de colchetes
 Em objetos literais para adicionar campos e configura-los basta apenas usar o recurso do '.' inserindo ou alterando atributos dentro do objeto
     cliente.fone = "464464546" -> Criando
     cliente.fone = "382176378216" -> Alterando o atributo criado anteriormente
+
+Inserindo funções dentro de objetos
+    const cliente = {
+        .
+        .
+        .
+
+        depositar: function(valor) {
+            ... Código da função
+        }
+    }
+
