@@ -41,3 +41,11 @@ Inserindo funções dentro de objetos
         }
     }
 
+Método forIn usado para percorrer objetos
+    for(let info in objeto) {
+        ... Percorre cada informações/propriedade do objetos
+
+        info -> Pega apenas o nome da chave
+        objeto.info -> Pega o valor da propriedade
+
+    }
