@@ -3,9 +3,14 @@
 *********************************************************************************
 
 Objetos funcionam quando precisamos fazer uma abstração por exemplo de algo do mundo real como por exemplo um 'cliente'
+
 Objetos são literais quando suas caracteristícas e métodos são cirados entre chaves { }, denominado de notação literal, e uma das suas diferenças é que ele aponta para um mesmo local na memória podendo serem feitas refêrencias para ele através de outros objetos que o apontam. Para contornar esta situação é necessário criar um objeto através do método Object.Create(nomeObj), este método cria uma 'cópia' do objeto fornecido, sendo assim um novo local na memória onde você pode trabalhar de forma diferente
 
+O Spread Operator, é um operador de espalhamento onde ele acessa o local desejado e espalho para a vairiável a qual você esta definindo. Notação "...cliente[0].dependentes" -> Espalha o conteudo especificado em clientes[0].dependentes, e ele retorna um novo array.
 
+*********************************************************************************
+******************************FIM RESUMO DA LINGUAGEM****************************
+*********************************************************************************
 
 
 
@@ -73,3 +78,11 @@ Devolve em par a propriedade seguida de seu valor
         tel: "5517981253428"
     }
     console.log(Object.entries(cliente)) ->  Irá devolver um array em pares entre a propriedade e seu respectivo valor
+
+Conversões entre JSON e Notação literal
+    JSON.parse() -> Converte um JSON para um Objeto JavaScript
+    JSON.stringify() -> Converte um Objeto JavaScript para JSON
+
+*********************************************************************************
+*****************************FIM COMANDO DA LINGUAGEM****************************
+*********************************************************************************
