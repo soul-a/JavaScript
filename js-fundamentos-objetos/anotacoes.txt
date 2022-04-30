@@ -8,6 +8,28 @@ Objetos são literais quando suas caracteristícas e métodos são cirados entre
 
 O Spread Operator, é um operador de espalhamento onde ele acessa o local desejado e espalho para a vairiável a qual você esta definindo. Notação "...cliente[0].dependentes" -> Espalha o conteudo especificado em clientes[0].dependentes, e ele retorna um novo array.
 
+JSON
+    {
+        "id":50,
+        "titulo":"Primeiros Passos com NodeJS",
+        "autor":"João Rubens",
+        "categoria":"programação",
+        "versoes":[
+            "ebook",
+            "impresso"
+        ]
+    }
+
+Objeto JavaScript
+    {
+        id: 50,
+        titulo: "Primeiros Passos com NodeJS",
+        autor: "João Rubens",
+        categoria: "programação",
+        versoes: ["ebook", "impresso"]
+    }
+
+
 *********************************************************************************
 ******************************FIM RESUMO DA LINGUAGEM****************************
 *********************************************************************************
@@ -82,6 +104,12 @@ Devolve em par a propriedade seguida de seu valor
 Conversões entre JSON e Notação literal
     JSON.parse() -> Converte um JSON para um Objeto JavaScript
     JSON.stringify() -> Converte um Objeto JavaScript para JSON
+
+__proto__
+
+Todo objeto no JS possui uma implementação chamada __proto__, que possui todos os métodos usados nos objetos, basicamente é o prototipo de todas as funções que podem serem executadas a partir de um objeto
+    const arr = [1,2,3];
+    arr.__proto__; -> Ira retornar a prototipação do objeto
 
 *********************************************************************************
 *****************************FIM COMANDO DA LINGUAGEM****************************
